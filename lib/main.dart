@@ -2,7 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-import 'home_widget.dart';
+import 'home_page.dart';
+// import 'home_widget.dart';
 
 void main()
 {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.lime,
         primaryColor: Colors.tealAccent
       ),
-      home: const HomeWidget() ,
+      home: const HomePage() ,
     );
   }
 }
